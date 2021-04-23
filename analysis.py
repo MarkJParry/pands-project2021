@@ -16,54 +16,108 @@ data = pd.read_csv('iris.data',header=None)
 
 
 #give the values a header column as there was no header in the csv file
-data.columns = ['sepal length', 'sepal width', 'petal length', 'petal width', 'class']
-#get the unique values in the classes column
-classes = data["class"].unique()
-#assign a colour to each class
-colors = {classes[0]:"purple",classes[1]:"red",classes[2]:"blue"}
+data.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+#get the unique values in the species column
+iris_species = data["species"].unique()
+print(iris_species)
+#assign a colour to each species
+colors = {iris_species[0]:"purple",iris_species[1]:"red",iris_species[2]:"blue"}
 input(colors)
-
+input(data)
 #me messing
 #measures = data.columns[:-1]
 #print(measures)
 #input("press any key")
 #print(data.head())
 #print(data.tail())
-#print(data.describe())
+print(data.describe())
+input("pause")
+print(data.corr())
+input("pause")
 
+
+#mpl.hist(data['sepal_length'],bins=8)
+#mpl.show()
+#input("pause")
+
+#mpl.hist(data[data['species']=='Iris-setosa'][['sepal_length']])
+#a = []
+#a.append(data[data['species']=='Iris-setosa'][['sepal_length']])
+#ris_df[iris_df['species_name'] == 'Setosa']['petal_length']
+a = data[data['species']=='Iris-setosa']['sepal_length']
+print(a)
+input("pause")
+print(a.shape)
+
+b = data[data['species']=='Iris-versicolor']['sepal_length']
+print(b)
+input("pause")
+c = data[data['species']=='Iris-virginica']['sepal_length']
+mpl_dataset = [a,b,c]
+fig, ax = mpl.subplots(figsize=(12, 7))
+ax.yaxis.set_ticks_position('none')
+# Add major gridlines in the y-axis
+ax.grid(color='grey', axis='y', linestyle='-', linewidth=0.25, alpha=0.5)
+# Set plot title
+ax.set_title('Distribution of sepal_length by species')
+ax.boxplot(mpl_dataset)
+
+mpl.show()
+input("pause")
 #print(type(data))
 #print(list(data))
 #print(data.dtypes)
 #print(data["class"].drop_duplicates())
 
 
-
-#loop through the measurements excluding the class column
-for measure in data.columns[:-1]:
-     print(measure)
-     
-     #loop through the dataframe for each class
-     for iclass in classes:
+def plot_hist():
+     #loop through the measurements excluding the species column
+     for measure in data.columns[:-1]:
+          print(measure)
           
-          #print(data[data['class']==iclass][[measure]])
-          mpl_data = data[data['class']==iclass][[measure]]
-          mpl.hist(mpl_data,color=colors[iclass],label=iclass,alpha=.5,histtype="step")
-          #Give the histograms a title,change the numbering on the x axis,label both axes, display the legend to note which plot is which(rgb)
-          mpl.title("Iris Dataset " + measure + " Histogram") 
-          #mpl.xticks([0,1,2,3,4])
-          mpl.xlabel(measure) 
+          #loop through the dataframe for each species
+          for species in iris_species:
+               #print(data[data['class']==iclass][[measure]])
+               mpl_data = data[data['species']==species][measure]
+               mpl.hist(mpl_data,color=colors[species],label=species,alpha=.5,histtype="step")
+               #Give the histograms a title,change the numbering on the x axis,label both axes, display the legend to note which plot is which(rgb)                    mpl.title("Iris Dataset " + measure + " Histogram") 
+               #mpl.xticks([0,1,2,3,4])
+               mpl.xlabel(measure) 
+               mpl.ylabel("count") 
+               mpl.legend() 
+               #mpl.savefig(measure + ".png")
+          mpl.show()
+#boxplot
+#mpl.figure(figsize = (10, 7))
+#mpl_data = data[data.columns[:-1]] whole set
+#mpl.boxplot(mpl_data)
+def plot_box():
+     #loop through the dataframe for each species
+     mpl_dataset = []
+     
+     for species in iris_species:
+          print(species)
+          for measure in data.columns[:-1]:
+               mpl_data = []
+               #print(data[data['species']==species][[measure]])
+               #input ("pause")
+               mpl_data = data[data['species']==species][measure]
+               mpl_dataset.append(mpl_data)
+               print(mpl_dataset)
+               input ("pause")
+          mpl.xlabel(species) 
           mpl.ylabel("count") 
-          mpl.legend() 
-          mpl.savefig(measure + ".png")
-     mpl.show()
+          mpl.boxplot(mpl_dataset)
+          mpl.show()
+             
+#plot_hist()
+#add scatterdiagrams for each pair ([sepal_length,width][petal length,width] for each class (6 diagrams in all)
+plot_box()
 
-#add scatterdiagrams for each pair ([sepal length,width][petal length,width] for each class (6 diagrams in all)
-
-
-#print(data['sepal length'])
-#setosa_sl = data.loc[0:49, ['sepal length']]
+#print(data['sepal_length'])
+#setosa_sl = data.loc[0:49, ['sepal_length']]
 #print(data.query('class =="Iris-setosa"'))  #returning error
 #print(data[data['class']=="Iris-setosa"])
-#print(data[data['class']=="Iris-setosa"][['sepal length']])
+#print(data[data['class']=="Iris-setosa"][['sepal_length']])
 #mpl.hist(setosa_sl)
 #mpl.show()
