@@ -22,18 +22,23 @@ iris_species = data["species"].unique()
 print(iris_species)
 #assign a colour to each species
 colors = {iris_species[0]:"purple",iris_species[1]:"red",iris_species[2]:"blue"}
-input(colors)
-input(data)
+#input(colors)
+#input(data)
 #me messing
 #measures = data.columns[:-1]
 #print(measures)
 #input("press any key")
 #print(data.head())
 #print(data.tail())
-print(data.describe())
-input("pause")
-print(data.corr())
-input("pause")
+with open('describe.txt', 'a') as outfile:
+     print('\nOutput from the data describe function', file=outfile)
+     print(data.describe(),file=outfile)
+#input("pause")
+with open('correlation.txt', 'a') as outfile:
+     print('\nOutput from the data correlation function', file=outfile)
+     print(data.corr(),file=outfile)
+#
+# input("pause")
 
 
 #mpl.hist(data['sepal_length'],bins=8)
@@ -45,13 +50,13 @@ input("pause")
 #a.append(data[data['species']=='Iris-setosa'][['sepal_length']])
 #ris_df[iris_df['species_name'] == 'Setosa']['petal_length']
 a = data[data['species']=='Iris-setosa']['sepal_length']
-print(a)
+#print(a)
 input("pause")
-print(a.shape)
+#print(a.shape)
 
 b = data[data['species']=='Iris-versicolor']['sepal_length']
-print(b)
-input("pause")
+#print(b)
+#input("pause")
 c = data[data['species']=='Iris-virginica']['sepal_length']
 mpl_dataset = [a,b,c]
 fig, ax = mpl.subplots(figsize=(12, 7))
@@ -60,10 +65,10 @@ ax.yaxis.set_ticks_position('none')
 ax.grid(color='grey', axis='y', linestyle='-', linewidth=0.25, alpha=0.5)
 # Set plot title
 ax.set_title('Distribution of sepal_length by species')
-ax.boxplot(mpl_dataset)
+ax.boxplot(mpl_dataset,labels=iris_species)
 
 mpl.show()
-input("pause")
+#input("pause")
 #print(type(data))
 #print(list(data))
 #print(data.dtypes)
@@ -73,7 +78,7 @@ input("pause")
 def plot_hist():
      #loop through the measurements excluding the species column
      for measure in data.columns[:-1]:
-          print(measure)
+          #print(measure)
           
           #loop through the dataframe for each species
           for species in iris_species:
@@ -85,6 +90,7 @@ def plot_hist():
                mpl.xlabel(measure) 
                mpl.ylabel("count") 
                mpl.legend() 
+               mpl.title()
                #mpl.savefig(measure + ".png")
           mpl.show()
 #boxplot
@@ -93,21 +99,26 @@ def plot_hist():
 #mpl.boxplot(mpl_data)
 def plot_box():
      #loop through the dataframe for each species
-     mpl_dataset = []
+
      
      for species in iris_species:
           print(species)
+          mpl_dataset = []
           for measure in data.columns[:-1]:
+               print(measure)
                mpl_data = []
                #print(data[data['species']==species][[measure]])
                #input ("pause")
                mpl_data = data[data['species']==species][measure]
                mpl_dataset.append(mpl_data)
-               print(mpl_dataset)
-               input ("pause")
-          mpl.xlabel(species) 
-          mpl.ylabel("count") 
-          mpl.boxplot(mpl_dataset)
+               #print(mpl_dataset)
+               #input ("pause")
+               #mpl.xlabel(species) 
+               mpl.ylabel("count") 
+               #mpl.boxplot(mpl_dataset,labels=data.columns[:-1])
+          mpl.title("Boxplots for "+ species + " measures")
+          mpl.boxplot(mpl_dataset,labels=data.columns[:-1])
+          mpl.savefig(species + ".png")
           mpl.show()
              
 #plot_hist()
