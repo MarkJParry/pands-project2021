@@ -90,7 +90,7 @@ def plot_hist():
                mpl.xlabel(measure) 
                mpl.ylabel("count") 
                mpl.legend() 
-               mpl.title()
+               mpl.title("Title")
                #mpl.savefig(measure + ".png")
           mpl.show()
 #boxplot
