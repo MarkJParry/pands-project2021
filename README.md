@@ -37,16 +37,16 @@ Contents:
 
 
 # **Introduction**
-## **ProjectBrief**
+## **Project Brief**
 The Iris Data Set first appeared in the publication by R.Fisher of a paper”Tax…” in the journal “Annals of Eugenics” - many universities allow access to this paper purely for academic research and preface it with the following:
 
  “The work of eugenicists was often pervaded by prejudice against racial, ethnic and disabled groups. Publication of this material online is for scholarly research purposes is not an endorsement or promotion of the views expressed in any of these articles or eugenics in general”. (https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x n.d.)
 
 
-## **Project_Plan**
+## **Project Plan**
 # **The Code**
 ## **Libraries**
-## **Data_Import**
+## **Data Import**
 ## **Main**
 ## **Outputs**
 ### **Save_To_File**
@@ -68,11 +68,12 @@ The Iris Data Set first appeared in the publication by R.Fisher of a paper”Tax
 [04] [title]https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b\
 
 [05] [title] https://scipy-lectures.org/packages/statistics/index.html#the-pandas-data-frame\
+
 [06] [dataset available here:] https://gist.github.com/curran/a08a1080b88344b0c8a7#file-readme-md\
 
-
 [07][title] https://matplotlib.org/stable/gallery/index.html\
-[08][title] https://numpy.org/\
+
+[08][title] https://numpy.org\
 
 [09][title] https://archive.ics.uci.edu/ml/datasets/Iris\
 
