@@ -48,7 +48,12 @@ The Iris Data Set first appeared in the publication by R.A.Fisher of a paper "TH
 Fischer published his paper in the late 1930’s and as such would have had to presumably use a slide rule and pen and paper which would have meant that this would have been a long and laborious task, the advent of calculators would have speeded this up for him in the 70’s and the personal computer in the early 80’s even further. The advent of statistical analysis packagess such as R ,SPSS and SAS would have given him an even better turnaround time . Today there are many packages in existence that are based specifically around statistical analysis and can be imported or used by many modern computer languages such as python, java, etc. Within the python world there are a number of importable utilities such as pandas which is used to generate and manipulate dataframes, matplotlib which is used for graphical representations of the data and various others such as  Seaborn and Gleam.
 
 ## **Project Brief**
-For the purpose of this exercise I have used the python language to produce this report using the pandas and matplotlib modules to analyse the raw data and output statistics on the data such as the mean, median, standard deviation and produce tables and visualisations of the data. The purpose of analysing any set of  data is to see if one can gain insights into the data, firstly is there anything meaningful in the data, can anything be extrapolated from the data, as such this particular data set lends itself to the “machine learning” branch of computing as it is a small, compact data set and there appears to be some correlation between the petal length and petal width between the species enabling a model to categorise a plant given the pairs of data (sepal width and length, petal width and length) into its particular species with a relatively low degree of error.
+"Research Fishers Iris data set and write documentation and code in Python to invetsigate it, write a summary of the research in the readme file and have the code output a summary of ech measure to a textfile, output and save histograms of the data and produce scatter plots"(A.Beatty "PANDS Project Description")
+
+For the purpose of this exercise I have used the python language to produce this report using the pandas and matplotlib modules to analyse the raw data and output statistics on the data such as the mean, median, standard deviation and produce tables and visualisations of the data. 
+
+The purpose of analysing any set of  data is to see if one can gain insights into the data, firstly is there anything meaningful in the data, can anything be extrapolated from the data, as such this particular data set lends itself to the “machine learning” branch of computing as it is a small, compact data set and there appears to be some correlation between the petal length and petal width between the species enabling a model to categorise a plant given the pairs of data (sepal width and length, petal width and length) into its particular species with a relatively low degree of error.
+
 ## **Project Plan**
 <img src = "https://github.com/MarkJParry/pands-project2021/blob/main/projectplan.PNG" alt = "Project Plan">
 
@@ -63,8 +68,21 @@ For the purpose of this exercise I have used the python language to produce this
 # **Analysis Outputs**
 ## **Summary**
 ## **Histograms**
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/petal length.png" alt = "Petal Length histogram">
+
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/petal width.png" alt = "Petal Width histogram">
+
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/sepal length.png" alt = "Sepal Length histogram">
+
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/sepal width.png" alt = "Sepal Width histogram">
+
 ## **Scatter Plots**
 ## **Box Plots**
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/iris-setosa.png" alt = "Iris Setosa boxplot">
+
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/iris-versicolor.png" alt = "Iris Versicolor boxplot">
+
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/iris-virginica.png" alt = "Iris Virginica boxplot">
 # **Conclusion**
 # **References**
 
