@@ -17,20 +17,20 @@ Contents:
 
 ## Table of contents
 * [Introduction](#Introduction)
-	* [Project Brief](#ProjectBrief)
-	* [Project Plan](#Project Plan)
+	* [Project Brief](#Project_Brief)
+	* [Project Plan](#Project_Plan)
 * [The Code](#The Code)
 	* [Libraries](Libraries)
-	* [Data Import](#Data Import)
+	* [Data Import](#Data_Import)
 	* [Main](#Main)
 	* [Outputs](#Outputs)
-		* [Save Text Output to File](#Save To File)
-		* [Save Plots to Portable Graphics Format(png)](#Save To Png)
-* [Analysis Outputs](#AnalysisOutputs)
+		* [Save Text Output to File](#Save_To_File)
+		* [Save Plots to Portable Graphics Format(png)](#Save_To_Png)
+* [Analysis Outputs](#Analysis_Outputs)
 	* [Data Set Summary](#Summary)
 	* [Histograms] (#Histograms)
-	* [Scatter Plots](#Scatter Plots)
-	* [Box Plots](#Box Plots)
+	* [Scatter Plots](#Scatter_Plots)
+	* [Box Plots](#Box_Plots)
 * [Conclusion](#Conclusion)
 * [References](#References)
 
@@ -43,19 +43,19 @@ The Iris Data Set first appeared in the publication by R.Fisher of a paper”Tax
  “The work of eugenicists was often pervaded by prejudice against racial, ethnic and disabled groups. Publication of this material online is for scholarly research purposes is not an endorsement or promotion of the views expressed in any of these articles or eugenics in general”. (https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x n.d.)
 
 
-## **Project Plan**
+## **Project_Plan**
 # **The Code**
 ## **Libraries**
-## **Data Import**
+## **Data_Import**
 ## **Main**
 ## **Outputs**
-### **Save To File**
-### **Save To Png**
-# **Analysis Outputs**
+### **Save_To_File**
+### **Save_To_Png**
+# **Analysis_Outputs**
 ## **Summary**
 ## **Histograms**
-## **Scatter Plots**
-## **Box Plots**
+## **Scatter_Plots**
+## **Box_Plots**
 # **Conclusion**
 # **References**
 
