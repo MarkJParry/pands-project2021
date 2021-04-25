@@ -13,49 +13,49 @@ Contents:
 |Project Plan|Outline of timeframe and steps needed to complete project|22/03/2021
 |Code|analysis.py|23/03/3021
 
-# Programming and Scripting Project-2021 G00398271
+# The Project
 
 ## Table of contents
 * [Introduction](#Introduction)
-	* [Project Brief](#ProjectBrief)
-	* [Project Plan](#ProjectPlan)
-* [The Code](#TheCode)
+	* [Project Brief](#Project Brief)
+	* [Project Plan](#Project Plan)
+* [The Code](#The Code)
 	* [Libraries](Libraries)
-	* [Data Import](#DataImport)
+	* [Data Import](#Data Import)
 	* [Main](#Main)
 	* [Outputs](#Outputs)
-		* [Save Text Output to File](#SaveToFile)
-		* [Save Plots to Portable Graphics Format(png)](#SaveToPng)
+		* [Save Text Output to File](#Save To File)
+		* [Save Plots to Portable Graphics Format(png)](#Save To Png)
 * [Analysis Outputs](#AnalysisOutputs)
 	* [Data Set Summary](#Summary)
 	* [Histograms] (#Histograms)
-	* [Scatter Plots](#ScatterPlots)
-	* [Box Plots](#BoxPlots)
+	* [Scatter Plots](#Scatter Plots)
+	* [Box Plots](#Box Plots)
 * [Conclusion](#Conclusion)
 * [References](#References)
 
 
 
 # **Introduction**
-## **ProjectBrief**
+## **Project Brief**
 The Iris Data Set first appeared in the publication by R.Fisher of a paper”Tax…” in the journal “Annals of Eugenics” - many universities allow access to this paper purely for academic research and preface it with the following:
 
  “The work of eugenicists was often pervaded by prejudice against racial, ethnic and disabled groups. Publication of this material online is for scholarly research purposes is not an endorsement or promotion of the views expressed in any of these articles or eugenics in general”. (https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x n.d.)
 
 
-## **ProjectPlan**
-# **TheCode**
+## **Project Plan**
+# **The Code**
 ## **Libraries**
-## **DataImport**
+## **Data Import**
 ## **Main**
 ## **Outputs**
-### **SaveToFile**
-### **SaveToPng**
-# **AnalysisOutputs**
+### **Save To File**
+### **Save To Png**
+# **Analysis Outputs**
 ## **Summary**
 ## **Histograms**
-## **ScatterPlots**
-## **BoxPlots**
+## **Scatter Plots**
+## **Box Plots**
 # **Conclusion**
 # **References**
 
