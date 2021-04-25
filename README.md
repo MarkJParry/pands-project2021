@@ -17,7 +17,7 @@ Contents:
 
 ## Table of contents
 * [Introduction](#Introduction)
-	* [Project Brief](#Project Brief)
+	* [Project Brief](#ProjectBrief)
 	* [Project Plan](#Project Plan)
 * [The Code](#The Code)
 	* [Libraries](Libraries)
@@ -37,7 +37,7 @@ Contents:
 
 
 # **Introduction**
-## **Project Brief**
+## **ProjectBrief**
 The Iris Data Set first appeared in the publication by R.Fisher of a paper”Tax…” in the journal “Annals of Eugenics” - many universities allow access to this paper purely for academic research and preface it with the following:
 
  “The work of eugenicists was often pervaded by prejudice against racial, ethnic and disabled groups. Publication of this material online is for scholarly research purposes is not an endorsement or promotion of the views expressed in any of these articles or eugenics in general”. (https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x n.d.)
