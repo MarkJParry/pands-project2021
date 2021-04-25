@@ -50,7 +50,8 @@ Fischer published his paper in the late 1930’s and as such would have had to p
 ## **Project Brief**
 For the purpose of this exercise I have used the python language to produce this report using the pandas and matplotlib modules to analyse the raw data and output statistics on the data such as the mean, median, standard deviation and produce tables and visualisations of the data. The purpose of analysing any set of  data is to see if one can gain insights into the data, firstly is there anything meaningful in the data, can anything be extrapolated from the data, as such this particular data set lends itself to the “machine learning” branch of computing as it is a small, compact data set and there appears to be some correlation between the petal length and petal width between the species enabling a model to categorise a plant given the pairs of data (sepal width and length, petal width and length) into its particular species with a relatively low degree of error.
 ## **Project Plan**
-<img src = "https://github.com/MarkJParry/pands-project-2021/blob/master/projectplan.PNG" alt = "Project Plan">
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/projectplan.PNG" alt = "Project Plan">
+
 
 # **The Code**
 ## **Libraries**
