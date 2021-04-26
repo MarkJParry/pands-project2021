@@ -64,45 +64,44 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 # **The Code**
 ## **Libraries**
-'''
 
-import matplotlib.pyplot as mpl
-import numpy as np
-import pandas as pd
 
-'''
+    import matplotlib.pyplot as mpl
+    import numpy as np
+    import pandas as pd
+
 ## **Data Import**
-'''
 
-#read in the csv file of values
-data = pd.read_csv('iris.data',header=None)
 
-#give the values a header column as there was no header in the csv file
-data.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+    #read in the csv file of values
+    data = pd.read_csv('iris.data',header=None)
+
+    #give the values a header column as there was no header in the csv file
+    data.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
 
 '''
 ## **Main**
 ## **Outputs**
 ### **Save To File**
-'''
-#save the output of the describe function of the dataframe to a text file 
-with open('describe.txt', 'a') as outfile:
-     print('\nOutput from the data describe function', file=outfile)
-     print(data.describe(),file=outfile)
 
-#save the output of the correlation function to a text file
-with open('correlation.txt', 'a') as outfile:
-     print('\nOutput from the data correlation function', file=outfile)
-     print(data.corr(),file=outfile)
-'''  
+    #save the output of the describe function of the dataframe to a text file 
+    with open('describe.txt', 'a') as outfile:
+       print('\nOutput from the data describe function', file=outfile)
+       print(data.describe(),file=outfile)
+
+    #save the output of the correlation function to a text file
+    with open('correlation.txt', 'a') as outfile:
+       print('\nOutput from the data correlation function', file=outfile)
+       print(data.corr(),file=outfile)
+
 ### **Save To Png**   
-'''
-#save the plots to file
-mpl.savefig(measure + ".png")
-mpl.savefig(species + ".png")
-mpl.savefig(measure1 + "_" + measure2 + ".png")
 
-'''
+    #save the plots to file
+    mpl.savefig(measure + ".png")
+    mpl.savefig(species + ".png")
+    mpl.savefig(measure1 + "_" + measure2 + ".png")
+
+
 
 # **Analysis Outputs**
 ## **Summary**
