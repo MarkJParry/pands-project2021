@@ -18,9 +18,9 @@ Contents:
 
 ## Table of contents
 * [Introduction](#Introduction)	
-	* [Project Brief](#Project_Brief)
- 	* [Project Background](#Project_Background)
-	* [Project Plan](#Project_Plan)
+	* [Project Brief](#Project-Brief)
+ 	* [Project Background](#Project-Background)
+	* [Project Plan](#Project-Plan)
 * [The Code](#The_Code)
 	* [Libraries](#Libraries)
 	* [Data Import](#Data_Import)
