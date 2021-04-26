@@ -41,7 +41,7 @@ Contents:
 # **Introduction**
 ## **Project Background**
 
-The Iris Data Set first appeared in the publication by R.A.Fisher of a paper "THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC  PROBLEMS” in the journal “Annals of Eugenics” - many universities allow access to this paper purely for academic research and preface it with the following:
+The Iris Data Set first appeared in the publication by R.A.Fisher of his paper "THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC  PROBLEMS” in the journal “Annals of Eugenics” - many universities allow access to this paper purely for academic research and preface it with the following:
 
  “The work of eugenicists was often pervaded by prejudice against racial, ethnic and disabled groups. Publication of this material online is for scholarly research purposes is not an endorsement or promotion of the views expressed in any of these articles or eugenics in general”. (https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x n.d.)
  
@@ -55,6 +55,9 @@ For the purpose of this exercise I have used the python language to produce this
 The purpose of analysing any set of  data is to see if one can gain insights into the data, firstly is there anything meaningful in the data, can anything be extrapolated from the data, as such this particular data set lends itself to the “machine learning” branch of computing as it is a small, compact data set and there appears to be some correlation between the petal length and petal width between the species enabling a model to categorise a plant given the pairs of data (sepal width and length, petal width and length) into its particular species with a relatively low degree of error.
 
 ## **Project Plan**
+
+Or the "best laid plans of mice and men"(Robert Burns)
+
 <img src = "https://github.com/MarkJParry/pands-project2021/blob/main/projectplan.PNG" alt = "Project Plan">
 
 
@@ -77,10 +80,18 @@ The purpose of analysing any set of  data is to see if one can gain insights int
 
 
 ## **Scatter Plots**
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/sepal_length_sepal_width.png" alt="Iris Dataset Scatter Plot 1" width=290 height=290 align=left>
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/sepal_length_petal_length.png" alt="Iris Dataset Scatter Plot 2" width=290 height=290 align=left>
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/sepal_length_petal_width.png" alt="Iris Dataset Scatter Plot 3" width=290 height=290>
+
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/sepal_width_petal_length.png" alt="Iris Dataset Scatter Plot 4" width=290 height=290 align=left>
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/sepal_width_petal_width.png" alt="Iris Dataset Scatter Plot 5" width=290 height=290 align=left>
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal_length_petal_width.png" alt="Iris Dataset Scatter Plot 6" width=290 height=290>
+
 ## **Box Plots**
-<img src="https://github.com/MarkJParry/pands-project2021/blob/main/Iris-setosa.png" alt="Iris Setosa boxplot" width=290 height=200 align=left>
-<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/Iris-versicolor.png" alt = "Iris Versicolor boxplot" width=290 height=200 align=left>
-<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/Iris-virginica.png" alt = "Iris Virginica boxplot" width=290 height=200>
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/Iris-setosa.png" alt="Iris Setosa boxplot" width=290 height=290 align=left>
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/Iris-versicolor.png" alt = "Iris Versicolor boxplot" width=290 height=290 align=left>
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/Iris-virginica.png" alt = "Iris Virginica boxplot" width=290 height=290>
 
 # **Conclusion**
 # **References**
