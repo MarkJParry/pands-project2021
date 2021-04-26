@@ -72,8 +72,8 @@ Or the "best laid plans of mice and men"(Robert Burns)
 ## **Summary**
 ## **Histograms**
 
-<img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal length.png" alt="Petal Length histogram" width=450 height=300 align=left><td>
-<img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal width.png" alt="Petal Width histogram" width=450 height=300 align = left>
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal length.png" alt="Petal Length histogram" width=450 height=300 align=left>
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal width.png" alt="Petal Width histogram" width=450 height=300>
 	
 <img src = "https://github.com/MarkJParry/pands-project2021/blob/main/sepal length.png" alt = "Sepal Length histogram" width=450 height=300 align=left>
 <img src = "https://github.com/MarkJParry/pands-project2021/blob/main/sepal width.png" alt = "Sepal Width histogram" width=450 height=300>
@@ -90,8 +90,8 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 ## **Box Plots**
 <img src="https://github.com/MarkJParry/pands-project2021/blob/main/Iris-setosa.png" alt="Iris Setosa boxplot" width=290 height=290 align=left>
-<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/Iris-versicolor.png" alt = "Iris Versicolor boxplot" width=290 height=290 align=left>
-<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/Iris-virginica.png" alt = "Iris Virginica boxplot" width=290 height=290>
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/Iris-versicolor.png" alt="Iris Versicolor boxplot" width=290 height=290 align=left>
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/Iris-virginica.png" alt="Iris Virginica boxplot" width=290 height=290>
 
 # **Conclusion**
 # **References**
