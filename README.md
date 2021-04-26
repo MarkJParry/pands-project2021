@@ -110,7 +110,7 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 [07][title] https://matplotlib.org/stable/gallery/index.html
 
-[08][title] https://numpy.org
+[08][NumPy] https://numpy.org
 
 [09][title] https://archive.ics.uci.edu/ml/datasets/Iris
 
