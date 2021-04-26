@@ -17,6 +17,7 @@ data = pd.read_csv('iris.data',header=None)
 
 #give the values a header column as there was no header in the csv file
 data.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+measures = data.columns[:-1]
 #get the unique values in the species column
 iris_species = data["species"].unique()
 print(iris_species)
@@ -77,7 +78,7 @@ mpl.show()
 
 def plot_hist():
      #loop through the measurements excluding the species column
-     for measure in data.columns[:-1]:
+     for measure in measures:
           #print(measure)
           
           #loop through the dataframe for each species
@@ -104,7 +105,7 @@ def plot_box():
      for species in iris_species:
           print(species)
           mpl_dataset = []
-          for measure in data.columns[:-1]:
+          for measure in measures:
                print(measure)
                mpl_data = []
                #print(data[data['species']==species][[measure]])
@@ -120,6 +121,40 @@ def plot_box():
           mpl.boxplot(mpl_dataset,labels=data.columns[:-1])
           mpl.savefig(species + ".png")
           mpl.show()
+
+def plot_scatter(measure1,measure2):
+     for species in iris_species:
+
+          x = data[data['species']==species][measure1]
+          y = data[data['species']==species][measure2]
+
+          mpl.scatter(x,y,color=colors[species],label=species,alpha=.5)
+
+          mpl.xlabel(measure1)
+          mpl.ylabel(measure2)
+          mpl.title('Iris Dataset (' + measure1 + " vs  " + measure2 + ")")
+          mpl.legend()
+     mpl.savefig(measure1 + "_" + measure2 + ".png")
+     mpl.show()
+'''
+fig, axs = plt.subplots(2, 3)
+axs[0, 0].plot(x, y)
+axs[0, 0].set_title('Axis [0, 0]')
+axs[0, 1].plot(x, y, 'tab:orange')
+axs[0, 1].set_title('Axis [0, 1]')
+axs[1, 0].plot(x, -y, 'tab:green')
+axs[1, 0].set_title('Axis [1, 0]')
+axs[1, 1].plot(x, -y, 'tab:red')
+axs[1, 1].set_title('Axis [1, 1]')
+'''
+
+#call function to plot scatterplots for possible unique combinations of two measures(4 measures pick two = 4*3/2*1 = 6)
+for i in range (0,4):
+     for j in range(i+1,4):
+          plot_scatter(measures[i],measures[j])
+
+
+
              
 #plot_hist()
 #add scatterdiagrams for each pair ([sepal_length,width][petal length,width] for each class (6 diagrams in all)
