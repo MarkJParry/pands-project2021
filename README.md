@@ -96,27 +96,27 @@ Or the "best laid plans of mice and men"(Robert Burns)
 # **Conclusion**
 # **References**
 
-[01] [Towards data science. The Iris dataset - A little bit of history and biology] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5\
+[01] [Towards data science. The Iris dataset - A little bit of history and biology] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5
 
-[02] [Iris flower data set] https://en.wikipedia.org/wiki/Iris_flower_data_set\
+[02] [Iris flower data set] https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 [03] [title] https://www.sciencedirect.com/topics/mathematics/iris-data
 
-[04] [title]https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b\
+[04] [title]https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b
 
-[05] [title] https://scipy-lectures.org/packages/statistics/index.html#the-pandas-data-frame\
+[05] [title] https://scipy-lectures.org/packages/statistics/index.html#the-pandas-data-frame
 
-[06] [dataset available here:] https://gist.github.com/curran/a08a1080b88344b0c8a7#file-readme-md\
+[06] [dataset available here:] https://gist.github.com/curran/a08a1080b88344b0c8a7#file-readme-md
 
-[07][title] https://matplotlib.org/stable/gallery/index.html\
+[07][title] https://matplotlib.org/stable/gallery/index.html
 
-[08][title] https://numpy.org\
+[08][title] https://numpy.org
 
-[09][title] https://archive.ics.uci.edu/ml/datasets/Iris\
+[09][title] https://archive.ics.uci.edu/ml/datasets/Iris
 
-[10][THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC  PROBLEMS] https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x\
+[10][THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC  PROBLEMS] https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
 
-[11][Mastering Markdown Github] https://guides.github.com/features/mastering-markdown/#examples\
+[11][Mastering Markdown Github] https://guides.github.com/features/mastering-markdown/#examples
 
 
 
