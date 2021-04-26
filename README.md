@@ -100,7 +100,7 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 [02] [Iris flower data set] https://en.wikipedia.org/wiki/Iris_flower_data_set\
 
-[03] [title] https://www.sciencedirect.com/topics/mathematics/iris-data\
+[03] [title] https://www.sciencedirect.com/topics/mathematics/iris-data
 
 [04] [title]https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b\
 
