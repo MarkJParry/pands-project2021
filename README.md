@@ -64,27 +64,27 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 # **The Code**
 ## **Libraries**
-<div>
-<p>
-import matplotlib.pyplot as mpl<br>
-import numpy as np<br>
-import pandas as pd<br>
-</p>
-</div>
+'''
+
+import matplotlib.pyplot as mpl
+import numpy as np
+import pandas as pd
+
+'''
 ## **Data Import**
-<div>
-<p>
-#read in the csv file of values<br>
-data = pd.read_csv('iris.data',header=None)<br>
+'''
+
+#read in the csv file of values
+data = pd.read_csv('iris.data',header=None)
 
 #give the values a header column as there was no header in the csv file
 data.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
-</p>
-</div>
+
+'''
 ## **Main**
 ## **Outputs**
 ### **Save To File**
-<p>
+'''
 #save the output of the describe function of the dataframe to a text file 
 with open('describe.txt', 'a') as outfile:
      print('\nOutput from the data describe function', file=outfile)
@@ -94,14 +94,15 @@ with open('describe.txt', 'a') as outfile:
 with open('correlation.txt', 'a') as outfile:
      print('\nOutput from the data correlation function', file=outfile)
      print(data.corr(),file=outfile)
-</p>    
+'''  
 ### **Save To Png**   
-<p>
+'''
 #save the plots to file
 mpl.savefig(measure + ".png")
 mpl.savefig(species + ".png")
 mpl.savefig(measure1 + "_" + measure2 + ".png")
-</p>
+
+'''
 
 # **Analysis Outputs**
 ## **Summary**
