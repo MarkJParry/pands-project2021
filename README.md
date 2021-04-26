@@ -64,19 +64,23 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 # **The Code**
 ## **Libraries**
+<div>
 <p>
-import matplotlib.pyplot as mpl 
-#import numpy as np
-import pandas as pd
+import matplotlib.pyplot as mpl<br>
+import numpy as np<br>
+import pandas as pd<br>
 </p>
+</div>
 ## **Data Import**
+<div>
 <p>
-#read in the csv file of values
-data = pd.read_csv('iris.data',header=None)
+#read in the csv file of values<br>
+data = pd.read_csv('iris.data',header=None)<br>
 
 #give the values a header column as there was no header in the csv file
 data.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
 </p>
+</div>
 ## **Main**
 ## **Outputs**
 ### **Save To File**
