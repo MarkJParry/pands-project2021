@@ -168,8 +168,9 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 <!--- #https://datascience-enthusiast.com/R/pandas_datatable.html  comparison of pandas and R
 #http://www.cse.msu.edu/~ptan/dmbook/tutorials/tutorial3/tutorial3.html
-#https://pandas.pydata.org/docs/reference/frame.html --->
-
-
-
+#https://pandas.pydata.org/docs/reference/frame.html 
+https://docs.github.com/en/github/writing-on-github
+https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html
+https://pythonspot.com/matplotlib-scatterplot/
+--->
 
