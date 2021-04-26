@@ -17,12 +17,12 @@ Contents:
 # The Project
 
 ## Table of contents
-* [Introduction](#Introduction)
-	* [Project Background](#Project_Background)
+* [Introduction](#Introduction)	
 	* [Project Brief](#Project_Brief)
+ 	* [Project Background](#Project_Background)
 	* [Project Plan](#Project_Plan)
 * [The Code](#The_Code)
-	* [Libraries](Libraries)
+	* [Libraries](#Libraries)
 	* [Data Import](#Data_Import)
 	* [Main](#Main)
 	* [Outputs](#Outputs)
@@ -39,13 +39,6 @@ Contents:
 
 
 # **Introduction**
-## **Project Background**
-
-The Iris Data Set first appeared in the publication by R.A.Fisher of his paper "THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC  PROBLEMS” in the journal “Annals of Eugenics” - many universities allow access to this paper purely for academic research and preface it with the following:
-
- “The work of eugenicists was often pervaded by prejudice against racial, ethnic and disabled groups. Publication of this material online is for scholarly research purposes is not an endorsement or promotion of the views expressed in any of these articles or eugenics in general”. (https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x n.d.)
- 
-Fischer published his paper in the late 1930’s and as such would have had to presumably use a slide rule and pen and paper which would have meant that this would have been a long and laborious task, the advent of calculators would have speeded this up for him in the 70’s and the personal computer in the early 80’s even further. The advent of statistical analysis packagess such as R ,SPSS and SAS would have given him an even better turnaround time . Today there are many packages in existence that are based specifically around statistical analysis and can be imported or used by many modern computer languages such as python, java, etc. Within the python world there are a number of importable utilities such as pandas which is used to generate and manipulate dataframes, matplotlib which is used for graphical representations of the data and various others such as  Seaborn and Gleam.
 
 ## **Project Brief**
 "Research Fishers Iris data set and write documentation and code in Python to invetsigate it, write a summary of the research in the readme file and have the code output a summary of ech measure to a textfile, output and save histograms of the data and produce scatter plots"(A.Beatty "PANDS Project Description")
@@ -53,6 +46,14 @@ Fischer published his paper in the late 1930’s and as such would have had to p
 For the purpose of this exercise I have used the python language to produce this report using the pandas and matplotlib modules to analyse the raw data and output statistics on the data such as the mean, median, standard deviation and produce tables and visualisations of the data. 
 
 The purpose of analysing any set of  data is to see if one can gain insights into the data, firstly is there anything meaningful in the data, can anything be extrapolated from the data, as such this particular data set lends itself to the “machine learning” branch of computing as it is a small, compact data set and there appears to be some correlation between the petal length and petal width between the species enabling a model to categorise a plant given the pairs of data (sepal width and length, petal width and length) into its particular species with a relatively low degree of error.
+
+## **Project Background**
+
+The Iris Data Set first appeared in the publication by R.A.Fisher of his paper "THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC  PROBLEMS” in the journal “Annals of Eugenics” - many universities allow access to this paper purely for academic research and preface it with the following:
+
+ “The work of eugenicists was often pervaded by prejudice against racial, ethnic and disabled groups. Publication of this material online is for scholarly research purposes is not an endorsement or promotion of the views expressed in any of these articles or eugenics in general”. (https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x n.d.)
+ 
+Fischer published his paper in the late 1930’s and as such would have had to presumably use a slide rule and pen and paper which would have meant that this would have been a long and laborious task, the advent of calculators would have speeded this up for him in the 70’s and the personal computer in the early 80’s even further. The advent of statistical analysis packagess such as R ,SPSS and SAS would have given him an even better turnaround time . Today there are many packages in existence that are based specifically around statistical analysis and can be imported or used by many modern computer languages such as python, java, etc. Within the python world there are a number of importable utilities such as pandas which is used to generate and manipulate dataframes, matplotlib which is used for graphical representations of the data and various others such as  Seaborn and Gleam.
 
 ## **Project Plan**
 
@@ -63,11 +64,41 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 # **The Code**
 ## **Libraries**
+<p>
+import matplotlib.pyplot as mpl 
+#import numpy as np
+import pandas as pd
+</p>
 ## **Data Import**
+<p>
+#read in the csv file of values
+data = pd.read_csv('iris.data',header=None)
+
+#give the values a header column as there was no header in the csv file
+data.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+</p>
 ## **Main**
 ## **Outputs**
 ### **Save To File**
-### **Save To Png**
+<p>
+#save the output of the describe function of the dataframe to a text file 
+with open('describe.txt', 'a') as outfile:
+     print('\nOutput from the data describe function', file=outfile)
+     print(data.describe(),file=outfile)
+
+#save the output of the correlation function to a text file
+with open('correlation.txt', 'a') as outfile:
+     print('\nOutput from the data correlation function', file=outfile)
+     print(data.corr(),file=outfile)
+</p>    
+### **Save To Png**   
+<p>
+#save the plots to file
+mpl.savefig(measure + ".png")
+mpl.savefig(species + ".png")
+mpl.savefig(measure1 + "_" + measure2 + ".png")
+</p>
+
 # **Analysis Outputs**
 ## **Summary**
 ## **Histograms**
@@ -117,6 +148,11 @@ Or the "best laid plans of mice and men"(Robert Burns)
 [10][THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC  PROBLEMS] https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
 
 [11][Mastering Markdown Github] https://guides.github.com/features/mastering-markdown/#examples
+
+
+<!--- #https://datascience-enthusiast.com/R/pandas_datatable.html  comparison of pandas and R
+#http://www.cse.msu.edu/~ptan/dmbook/tutorials/tutorial3/tutorial3.html
+#https://pandas.pydata.org/docs/reference/frame.html --->
 
 
 
