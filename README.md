@@ -69,17 +69,18 @@ The purpose of analysing any set of  data is to see if one can gain insights int
 ## **Summary**
 ## **Histograms**
 
-<img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal length.png" alt="Petal Length histogram" width=450 height=300 align=left><td><img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal width.png" alt="Petal Width histogram" width=450 height=300 align = left>
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal length.png" alt="Petal Length histogram" width=450 height=300 align=left><td>
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal width.png" alt="Petal Width histogram" width=450 height=300 align = left>
 	
-<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/sepal length.png" alt = "Sepal Length histogram" width=450 height=300 align=left><img src = "https://github.com/MarkJParry/pands-project2021/blob/main/sepal width.png" alt = "Sepal Width histogram" width=450 height=300 align=left>
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/sepal length.png" alt = "Sepal Length histogram" width=450 height=300 align=left>
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/sepal width.png" alt = "Sepal Width histogram" width=450 height=300>
+
 
 ## **Scatter Plots**
 ## **Box Plots**
-<img src="https://github.com/MarkJParry/pands-project2021/blob/main/Iris-setosa.png" alt="Iris Setosa boxplot">
-
-<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/Iris-versicolor.png" alt = "Iris Versicolor boxplot">
-
-<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/Iris-virginica.png" alt = "Iris Virginica boxplot">
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/Iris-setosa.png" alt="Iris Setosa boxplot" width=290 height=200 align=left>
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/Iris-versicolor.png" alt = "Iris Versicolor boxplot" width=290 height=200 align=left>
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/Iris-virginica.png" alt = "Iris Virginica boxplot" width=290 height=200>
 
 # **Conclusion**
 # **References**
