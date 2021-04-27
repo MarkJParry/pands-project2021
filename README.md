@@ -12,7 +12,7 @@ Contents:
 |---------------|------------------------------------------------------------------------------------------------------------------|----------|
 |Project Plan|Outline of timeframe and steps needed to complete project|22/03/2021
 |Code|analysis.py|23/03/3021
-|The Project|The project itself - introduction,methods,findings,conclusion|23/04/2021
+|The Project|The project itself - introduction, methods, findings, conclusion|23/04/2021
 
 # The Project
 
@@ -24,7 +24,7 @@ Contents:
 * [The Code](#The-Code)
 	* [Libraries](#Libraries)
 	* [Data Import](#Data-Import)
-	* [Main](#Main)
+	* [Main Body](#Main)
 	* [Plot Histogram](#PlotHist)
 	* [Outputs](#Outputs)
 		* [Save Text Output to File](#Save-To-File)
@@ -56,11 +56,11 @@ The purpose of analysing any set of  data is to see if one can gain insights int
 
 ## **Project Background**
 
-The Iris Data Set first appeared in the publication by R.A.Fisher of his paper "THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC  PROBLEMS” in the journal “Annals of Eugenics” - many universities allow access to this paper purely for academic research and preface it with the following:
+The Iris Data Set first appeared in the publication by R.A.Fisher of his paper "The Use Of Multiple Measurements In Taxonomic  Problems” in the journal “Annals of Eugenics” - many universities allow access to this paper purely for academic research and preface it with the following:
 
  “The work of eugenicists was often pervaded by prejudice against racial, ethnic and disabled groups. Publication of this material online is for scholarly research purposes is not an endorsement or promotion of the views expressed in any of these articles or eugenics in general”. (https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x n.d.)[01]
  
-Fischer published his paper in the late 1930’s and as such would have had to presumably use a slide rule and pen and paper which would have meant that this would have been a long and laborious task, the advent of calculators would have speeded this up for him in the 70’s and the personal computer in the early 80’s even further. The advent of statistical analysis packagess such as R ,SPSS and SAS would have given him an even better turnaround time . Today there are many packages in existence that are based specifically around statistical analysis and can be imported or used by many modern computer languages such as python, java, etc. Within the python world there are a number of importable utilities such as pandas which is used to generate and manipulate dataframes, matplotlib which is used for graphical representations of the data and various others such as  Seaborn and Gleam.
+Fischer published his paper in the late 1930’s and as such would have had to presumably use a slide rule and pen and paper which would have meant that this would have been a long and laborious task, the advent of calculators would have speeded this up for him in the 70’s and the personal computer in the early 80’s even further. The advent of statistical analysis packagess such as R ,SPSS and SAS would have given him an even better turnaround time. Today there are many packages in existence that are based specifically around statistical analysis and can be imported or used by many modern computer languages such as python. Within the python world there are a number of importable utilities such as pandas which is used to generate and manipulate dataframes, matplotlib which is used for graphical representations of the data and various others such as  Seaborn and Gleam.
 
 ## **Project Plan**
 
@@ -96,7 +96,7 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
        return(data,measures,colors,iris_species)
 
-## **Main**
+## **Main Body**
 
     if __name__ == "__main__":
          #import data, set up the four measurements,three species,colours for plots
