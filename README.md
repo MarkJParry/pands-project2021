@@ -37,6 +37,10 @@ Contents:
 * [Conclusion](#Conclusion)
 * [References](#References)
 * [Bibliography](#Bibliography)
+* [Glossary](#Glossary)
+	* [Boxplot](#Boxplot)
+	* [Histogram](#Histogram)
+	* [Scatterplot](#Scatterplot) 
 
 
 
@@ -153,15 +157,15 @@ Or the "best laid plans of mice and men"(Robert Burns)
 # **Conclusion**
 # **References**
 [01][The Use Of Multiple Measurements In Taxonomic Problems] https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
+[02][Statistics Glossary v1.1] http://www.stats.gla.ac.uk/steps/glossary/
 
 # **Bibliography**
 |Title|Link|
 |-----|----|
 |Iris flower data set|https://en.wikipedia.org/wiki/Iris_flower_data_set
 |ScienceDirect - Iris Data|https://www.sciencedirect.com/topics/mathematics/iris-data
-|towardsdatascience|https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b
+|towardsdatascience - scikit|https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b
 |scipy-lectures - the Pandas Dataframe|https://scipy-lectures.org/packages/statistics/index.html#the-pandas-data-frame
-|dataset available here:|https://gist.github.com/curran/a08a1080b88344b0c8a7#file-readme-md
 |Matplotlib - Gallery|https://matplotlib.org/stable/gallery/index.html
 |UCI Machine Learning Repository|https://archive.ics.uci.edu/ml/datasets/Iris
 |Mastering Markdown Github|https://guides.github.com/features/mastering-markdown/#examples
@@ -175,4 +179,23 @@ Or the "best laid plans of mice and men"(Robert Burns)
 |Boxplots - Matplotlib 3.4.1. documentation|https://matplotlib.org/stable/gallery/statistics/boxplot_demo.html#sphx-glr-gallery-statistics-boxplot-demo-py
 |Histograms - Matplotlib 3.4.1. documentation|https://matplotlib.org/stable/gallery/statistics/hist.html
 |Scatter Plots - Matplotlib 3.4.1 documentation|https://matplotlib.org/stable/gallery/shapes_and_collections/scatter.html
+|Statistics Glossary v1.1|http://www.stats.gla.ac.uk/steps/glossary/
 
+# **Glossary**  
+The following definitions are taken from Easton, V. J. and McColl, J. H.  (1997) Statistics Glossary v1.1 
+## **Boxplot**
+A box and whisker plot is a way of summarising a set of data measured on an interval scale. It is often used in exploratory data analysis. It is a type of graph which is used to show the shape of the distribution, its central value, and variability. The picture produced consists of the most extreme values in the data set (maximum and minimum values), the lower and upper quartiles, and the median.
+
+A box plot (as it is often called) is especially helpful for indicating whether a distribution is skewed and whether there are any unusual observations (outliers) in the data set.
+
+Box and whisker plots are also very useful when large numbers of observations are involved and when two or more data sets are being compared.
+
+## **Histogram**
+A histogram is a way of summarising data that are measured on an interval scale (either discrete or continuous). It is often used in exploratory data analysis to illustrate the major features of the distribution of the data in a convenient form. It divides up the range of possible values in a data set into classes or groups. For each group, a rectangle is constructed with a base length equal to the range of values in that specific group, and an area proportional to the number of observations falling into that group. This means that the rectangles might be drawn of non-uniform height.
+
+The histogram is only appropriate for variables whose values are numerical and measured on an interval scale. It is generally used when dealing with large data sets (>100 observations), when stem and leaf plots become tedious to construct. A histogram can also help detect any unusual observations (outliers), or any gaps in the data set.
+
+## **Scatterplot**
+A scatterplot is a useful summary of a set of bivariate data (two variables), usually drawn before working out a linear correlation coefficient or fitting a regression line. It gives a good visual picture of the relationship between the two variables, and aids the interpretation of the correlation coefficient or regression model.
+
+Each unit contributes one point to the scatterplot, on which points are plotted but not joined. The resulting pattern indicates the type and strength of the relationship between the two variables.
