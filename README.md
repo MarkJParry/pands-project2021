@@ -25,6 +25,7 @@ Contents:
 	* [Libraries](#Libraries)
 	* [Data Import](#Data-Import)
 	* [Main](#Main)
+	* [Plot Histogram](#PlotHist)
 	* [Outputs](#Outputs)
 		* [Save Text Output to File](#Save-To-File)
 		* [Save Plots to Portable Graphics Format(png)](#Save-To-Png)
@@ -71,31 +72,81 @@ Or the "best laid plans of mice and men"(Robert Burns)
 # **The Code**
 ## **Libraries**
 
-
     import matplotlib.pyplot as mpl
     import pandas as pd
 
 ## **Data Import**
 
+    def initialise():
+       #read in the csv file of values
+       data = pd.read_csv('iris.data',header=None)
 
-    #read in the csv file of values
-    data = pd.read_csv('iris.data',header=None)
+       #give the values a header column as there was no header in the csv file
+       data.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
 
-    #give the values a header column as there was no header in the csv file
-    data.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+       #set up an array of measures only exclude the species column
+       measures = data.columns[:-1]
 
-'''
+       #get the unique values in the species column
+       iris_species = data["species"].unique()
+       #print(iris_species)
+
+       #assign a colour to each species
+       colors = {iris_species[0]:"purple",iris_species[1]:"red",iris_species[2]:"blue"}
+
+       return(data,measures,colors,iris_species)
+
 ## **Main**
+
+    if __name__ == "__main__":
+         #import data, set up the four measurements,three species,colours for plots
+         data,measures,colors,iris_species = initialise()
+
+         #output the describe and correlation data to textfiles
+         output_textfiles(data)
+
+         #call the histrogram function
+         plot_hist()
+
+         #call function to plot scatterplots for possible unique combinations of two measures(4 measures pick two = 4*3/2*1 = 6)
+         for i in range (0,4):
+              for j in range(i+1,4):
+                   plot_scatter(measures[i],measures[j])
+
+         #call the box plot function
+         plot_box()
+	 
+## **Plot Histogram**
+
+	#function to plot and display histograms for the data set
+	#this will loop through the measures and within that loop, loop through the species
+	#plot the measure for each species on one graph and save that to a file
+	def plot_hist():
+	     #loop through the measurements excluding the species column
+	     for measure in measures:
+		  #loop through the dataframe for each species
+		  for species in iris_species:
+		       mpl_data = data[data['species']==species][measure]
+		       mpl.hist(mpl_data,color=colors[species],label=species,alpha=.5,histtype="step")
+		       #Give the histograms a title,label both axes, display the legend to note which plot is which(prb)                    
+		       mpl.title("Iris Dataset " + measure + " Histogram") 
+		       mpl.xlabel(measure) 
+		       mpl.ylabel("count") 
+		       mpl.legend() 
+		       #this will save the plot to file
+		       mpl.savefig(measure + ".png")
+		  mpl.show()
+		  
 ## **Outputs**
 ### **Save To File**
 
     #save the output of the describe function of the dataframe to a text file 
-    with open('describe.txt', 'a') as outfile:
+    with open('describe.txt', 'w') as outfile:
        print('\nOutput from the data describe function', file=outfile)
        print(data.describe(),file=outfile)
 
     #save the output of the correlation function to a text file
-    with open('correlation.txt', 'a') as outfile:
+    with open('correlation.txt', 'w') as outfile:
        print('\nOutput from the data correlation function', file=outfile)
        print(data.corr(),file=outfile)
 
@@ -180,6 +231,7 @@ Or the "best laid plans of mice and men"(Robert Burns)
 |Histograms - Matplotlib 3.4.1. documentation|https://matplotlib.org/stable/gallery/statistics/hist.html
 |Scatter Plots - Matplotlib 3.4.1 documentation|https://matplotlib.org/stable/gallery/shapes_and_collections/scatter.html
 |Statistics Glossary v1.1|http://www.stats.gla.ac.uk/steps/glossary/
+|Python Print Function|https://www.tutorialgateway.org/python-print-function/
 
 # **Glossary**  
 The following definitions are taken from Easton, V. J. and McColl, J. H.  (1997) Statistics Glossary v1.1 
