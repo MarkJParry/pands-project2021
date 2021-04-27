@@ -30,6 +30,7 @@ Contents:
 		* [Save Plots to Portable Graphics Format(png)](#Save-To-Png)
 * [Analysis Outputs](#Analysis-Outputs)
 	* [Data Set Summary](#Summary)
+	* [Data Set Correlation](#Correlation)
 	* [Histograms](#Histograms)
 	* [Scatter Plots](#Scatter-Plots)
 	* [Box Plots](#Box-Plots)
@@ -52,7 +53,7 @@ The purpose of analysing any set of  data is to see if one can gain insights int
 
 The Iris Data Set first appeared in the publication by R.A.Fisher of his paper "THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC  PROBLEMS” in the journal “Annals of Eugenics” - many universities allow access to this paper purely for academic research and preface it with the following:
 
- “The work of eugenicists was often pervaded by prejudice against racial, ethnic and disabled groups. Publication of this material online is for scholarly research purposes is not an endorsement or promotion of the views expressed in any of these articles or eugenics in general”. (https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x n.d.)
+ “The work of eugenicists was often pervaded by prejudice against racial, ethnic and disabled groups. Publication of this material online is for scholarly research purposes is not an endorsement or promotion of the views expressed in any of these articles or eugenics in general”. (https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x n.d.)[01]
  
 Fischer published his paper in the late 1930’s and as such would have had to presumably use a slide rule and pen and paper which would have meant that this would have been a long and laborious task, the advent of calculators would have speeded this up for him in the 70’s and the personal computer in the early 80’s even further. The advent of statistical analysis packagess such as R ,SPSS and SAS would have given him an even better turnaround time . Today there are many packages in existence that are based specifically around statistical analysis and can be imported or used by many modern computer languages such as python, java, etc. Within the python world there are a number of importable utilities such as pandas which is used to generate and manipulate dataframes, matplotlib which is used for graphical representations of the data and various others such as  Seaborn and Gleam.
 
@@ -68,7 +69,6 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 
     import matplotlib.pyplot as mpl
-    import numpy as np
     import pandas as pd
 
 ## **Data Import**
@@ -117,7 +117,16 @@ Or the "best laid plans of mice and men"(Robert Burns)
     50%        5.800000     3.000000      4.350000     1.300000
     75%        6.400000     3.300000      5.100000     1.800000
     max        7.900000     4.400000      6.900000     2.500000
-   
+    
+## **Correlation**
+
+    Output from the data correlation function
+                  sepal_length  sepal_width  petal_length  petal_width
+    sepal_length      1.000000    -0.109369      0.871754     0.817954
+    sepal_width      -0.109369     1.000000     -0.420516    -0.356544
+    petal_length      0.871754    -0.420516      1.000000     0.962757
+    petal_width       0.817954    -0.356544      0.962757     1.000000
+
 ## **Histograms**
 
 <img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal length.png" alt="Petal Length histogram" width=450 height=300 align=left>
@@ -143,26 +152,24 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 # **Conclusion**
 # **References**
-[01][THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC  PROBLEMS] https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
+[01][The Use Of Multiple Measurements In Taxonomic Problems] https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
 
 # **Bibliography**
 |Title|Link|
 |-----|----|
-|Towards data science. The Iris dataset - A little bit of history and biology|https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5
 |Iris flower data set|https://en.wikipedia.org/wiki/Iris_flower_data_set
-|addtitle|https://www.sciencedirect.com/topics/mathematics/iris-data
-|addtitle|https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b
-|addtitle|https://scipy-lectures.org/packages/statistics/index.html#the-pandas-data-frame
+|ScienceDirect - Iris Data|https://www.sciencedirect.com/topics/mathematics/iris-data
+|towardsdatascience|https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b
+|scipy-lectures - the Pandas Dataframe|https://scipy-lectures.org/packages/statistics/index.html#the-pandas-data-frame
 |dataset available here:|https://gist.github.com/curran/a08a1080b88344b0c8a7#file-readme-md
-|addtitle|https://matplotlib.org/stable/gallery/index.html
-|NumPy|https://numpy.org
-|addtitle|https://archive.ics.uci.edu/ml/datasets/Iris
-|Mastering Markdown Github| https://guides.github.com/features/mastering-markdown/#examples
-|addtitle|https://datascience-enthusiast.com/R/pandas_datatable.html  comparison of pandas and R
-|addtitle|http://www.cse.msu.edu/~ptan/dmbook/tutorials/tutorial3/tutorial3.html
-|addtitle|https://pandas.pydata.org/docs/reference/frame.html 
-|addtitle|https://docs.github.com/en/github/writing-on-github
-|addtitle|https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html
-|addtitle|https://pythonspot.com/matplotlib-scatterplot/
-
+|Matplotlib - Gallery|https://matplotlib.org/stable/gallery/index.html
+|UCI Machine Learning Repository|https://archive.ics.uci.edu/ml/datasets/Iris
+|Mastering Markdown Github|https://guides.github.com/features/mastering-markdown/#examples
+|Data Manipulation with Python Pandas and R Data.Table|https://datascience-enthusiast.com/R/pandas_datatable.html  comparison of pandas and R
+|Module 3: Data Exploration|http://www.cse.msu.edu/~ptan/dmbook/tutorials/tutorial3/tutorial3.html
+|Pandas API Reference - Dataframe Constructor|https://pandas.pydata.org/docs/reference/frame.html 
+|GitHub Docs - Writing on GitHub|https://docs.github.com/en/github/writing-on-github
+|MatPlotLib - Creating multiple subplots using plt.subplots|https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html
+|Python Tutorials - MatPlotLib Scatterplot|https://pythonspot.com/matplotlib-scatterplot/
+|The Use Of Multiple Measurements In Taxonomic Problems|https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
 
