@@ -146,35 +146,23 @@ Or the "best laid plans of mice and men"(Robert Burns)
 [01][THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC  PROBLEMS] https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
 
 # **Bibliography**
-|Title|Link
+|Title|Link|
+|-----|----|
 |Towards data science. The Iris dataset - A little bit of history and biology|https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5
-
 |Iris flower data set|https://en.wikipedia.org/wiki/Iris_flower_data_set
-
 |addtitle|https://www.sciencedirect.com/topics/mathematics/iris-data
-
-|addtitle| https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b
-
-|addtitle| https://scipy-lectures.org/packages/statistics/index.html#the-pandas-data-frame
-
-|dataset available here:| https://gist.github.com/curran/a08a1080b88344b0c8a7#file-readme-md
-
-|addtitle| https://matplotlib.org/stable/gallery/index.html
-
-|NumPy| https://numpy.org
-
-|addtitle| https://archive.ics.uci.edu/ml/datasets/Iris
-
-
-
+|addtitle|https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b
+|addtitle|https://scipy-lectures.org/packages/statistics/index.html#the-pandas-data-frame
+|dataset available here:|https://gist.github.com/curran/a08a1080b88344b0c8a7#file-readme-md
+|addtitle|https://matplotlib.org/stable/gallery/index.html
+|NumPy|https://numpy.org
+|addtitle|https://archive.ics.uci.edu/ml/datasets/Iris
 |Mastering Markdown Github| https://guides.github.com/features/mastering-markdown/#examples
-
-
 |addtitle|https://datascience-enthusiast.com/R/pandas_datatable.html  comparison of pandas and R
 |addtitle|http://www.cse.msu.edu/~ptan/dmbook/tutorials/tutorial3/tutorial3.html
 |addtitle|https://pandas.pydata.org/docs/reference/frame.html 
 |addtitle|https://docs.github.com/en/github/writing-on-github
 |addtitle|https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html
 |addtitle|https://pythonspot.com/matplotlib-scatterplot/
---->
+
 
