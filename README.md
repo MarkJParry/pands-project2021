@@ -172,4 +172,7 @@ Or the "best laid plans of mice and men"(Robert Burns)
 |MatPlotLib - Creating multiple subplots using plt.subplots|https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html
 |Python Tutorials - MatPlotLib Scatterplot|https://pythonspot.com/matplotlib-scatterplot/
 |The Use Of Multiple Measurements In Taxonomic Problems|https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
+|Boxplots - Matplotlib 3.4.1. documentation|https://matplotlib.org/stable/gallery/statistics/boxplot_demo.html#sphx-glr-gallery-statistics-boxplot-demo-py
+|Histograms - Matplotlib 3.4.1. documentation|https://matplotlib.org/stable/gallery/statistics/hist.html
+|Scatter Plots - Matplotlib 3.4.1 documentation|https://matplotlib.org/stable/gallery/shapes_and_collections/scatter.html
 
