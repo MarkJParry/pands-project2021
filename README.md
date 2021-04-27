@@ -24,7 +24,7 @@ Contents:
 * [The Code](#The-Code)
 	* [Libraries](#Libraries)
 	* [Data Import](#Data-Import)
-	* [Main Body](#Main)
+	* [Main Body](#Main-Body)
 	* [Plot Histogram](#PlotHist)
 	* [Outputs](#Outputs)
 		* [Save Text Output to File](#Save-To-File)
