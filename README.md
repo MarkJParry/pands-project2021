@@ -3,7 +3,7 @@ Repository for the Programming and Scripting Module of the GMIT HDip in Data Ana
 
 Student: Mark Parry G00398271
 
-Project is based on an analysis of the Iris Data Set. The documents include the code, txt outputs and plots, a nreakdown of the code,analysis of the data and the references used whilst researching the project. 
+Project is based on an analysis of the Iris Data Set. The documents include the code, txt outputs and plots, a breakdown of the code,analysis of the data and the references used whilst researching the project. 
 
 
 Contents:
