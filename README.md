@@ -3,7 +3,7 @@ Repository for the Programming and Scripting Module of the GMIT HDip in Data Ana
 
 Student: Mark Parry G00398271
 
-Project is based on an analysis of the Iris Data Set. The various documents to be added include the code, txt outputs and graphs, and the analysis of the data. References used when researching and any others(##look at project brief to update properly). 
+Project is based on an analysis of the Iris Data Set. The documents include the code, txt outputs and plots, a nreakdown of the code,analysis of the data and the references used whilst researching the project. 
 
 
 Contents:
@@ -29,7 +29,7 @@ Contents:
 		* [Save Text Output to File](#Save-To-File)
 		* [Save Plots to Portable Graphics Format(png)](#Save-To-Png)
 * [Analysis Outputs](#Analysis-Outputs)
-	* [Data Set Summary](#Summary)
+	* [Data Set Measurements Summary](#Measurements-Summary)
 	* [Data Set Correlation](#Correlation)
 	* [Histograms](#Histograms)
 	* [Scatter Plots](#Scatter-Plots)
@@ -109,7 +109,7 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 
 # **Analysis Outputs**
-## **Summary**
+## **Measurements Summary**
 
     Output from the data describe function
            sepal_length  sepal_width  petal_length  petal_width
