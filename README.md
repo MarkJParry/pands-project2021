@@ -22,10 +22,14 @@ Contents:
  	* [Project Background](#Project-Background)
 	* [Project Plan](#Project-Plan)
 * [The Code](#The-Code)
-	* [Libraries](#Libraries)
-	* [Data Import](#Data-Import)
+	* [Initialisation](#Initialisation)
+		* [Libraries](#Libraries)
+		* [Import Data Set and Set Up](#Import-Data)
 	* [Main Body](#Main-Body)
-	* [Plot Histogram](#PlotHist)
+	* [Plots](#Plots)
+		* [Plot Histogram](#PlotHist)
+		* [Plot Scatter](#PlotScatter)
+		* [Plot Box](#PlotBox)
 	* [Outputs](#Outputs)
 		* [Save Text Output to File](#Save-To-File)
 		* [Save Plots to Portable Graphics Format(png)](#Save-To-Png)
@@ -52,7 +56,6 @@ Contents:
 
 For the purpose of this exercise I have used the python language to produce this report using the pandas and matplotlib modules to analyse the raw data and output statistics on the data such as the mean, median, standard deviation and produce tables and visualisations of the data. 
 
-The purpose of analysing any set of  data is to see if one can gain insights into the data, firstly is there anything meaningful in the data, can anything be extrapolated from the data, as such this particular data set lends itself to the “machine learning” branch of computing as it is a small, compact data set and there appears to be some correlation between the petal length and petal width between the species enabling a model to categorise a plant given the pairs of data (sepal width and length, petal width and length) into its particular species with a relatively low degree of error.
 
 ## **Project Background**
 
@@ -70,12 +73,15 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 
 # **The Code**
-## **Libraries**
+## **Initialisation**
+
+### **Libraries**
 
     import matplotlib.pyplot as mpl
     import pandas as pd
 
-## **Data Import**
+
+### **Import Data**
 
     def initialise():
        #read in the csv file of values
@@ -116,7 +122,9 @@ Or the "best laid plans of mice and men"(Robert Burns)
          #call the box plot function
          plot_box()
 	 
-## **Plot Histogram**
+## **Plots**
+	 
+### **Plot Histogram**
 
 	#function to plot and display histograms for the data set
 	#this will loop through the measures and within that loop, loop through the species
@@ -136,7 +144,9 @@ Or the "best laid plans of mice and men"(Robert Burns)
 		       #this will save the plot to file
 		       mpl.savefig(measure + ".png")
 		  mpl.show()
-		  
+### **Plot Scatter**	
+### **Plot Box**
+
 ## **Outputs**
 ### **Save To File**
 
@@ -206,6 +216,10 @@ Or the "best laid plans of mice and men"(Robert Burns)
 <img src="https://github.com/MarkJParry/pands-project2021/blob/main/Iris-virginica.png" alt="Iris Virginica boxplot" width=290 height=290>
 
 # **Conclusion**
+
+The purpose of analysing any set of  data is to see if one can gain insights into the data, firstly is there anything meaningful in the data, can anything be extrapolated from the data, as such this particular data set lends itself to the “machine learning” branch of computing as it is a small, compact data set and there appears to be some correlation between the petal length and petal width between the species enabling a model to categorise a plant given the pairs of data (sepal width and length, petal width and length) into its particular species with a relatively low degree of error.
+
+
 # **References**
 [01][The Use Of Multiple Measurements In Taxonomic Problems] https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
 [02][Statistics Glossary v1.1] http://www.stats.gla.ac.uk/steps/glossary/
