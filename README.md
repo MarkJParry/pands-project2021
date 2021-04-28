@@ -3,7 +3,7 @@ Repository for the Programming and Scripting Module of the GMIT HDip in Data Ana
 
 Student: Mark Parry G00398271
 
-Project is based on an analysis of the Iris Data Set. The documents include the code, txt outputs and plots, a breakdown of the code,analysis of the data and the references used whilst researching the project. 
+Project is based on an analysis of the Iris Data Set. The documents include the code, text outputs and plots, a breakdown of the code,analysis of the data and the references used whilst researching the project. 
 
 
 Contents:
@@ -52,7 +52,7 @@ Contents:
 # **Introduction**
 
 ## **Project Brief**
-"Research Fishers Iris data set and write documentation and code in Python to invetsigate it, write a summary of the research in the readme file and have the code output a summary of ech measure to a textfile, output and save histograms of the data and produce scatter plots"(A.Beatty "PANDS Project Description")
+"Research Fishers Iris data set and write documentation and code in Python to invetsigate it, write a summary of the research in the readme file and have the code output a summary of each measure to a textfile, output and save histograms of the data and produce scatter plots"(A.Beatty "PANDS Project Description")
 
 For the purpose of this exercise I have used the python language to produce this report using the pandas and matplotlib modules to analyse the raw data and output statistics on the data such as the mean, median, standard deviation and produce tables and visualisations of the data. 
 
