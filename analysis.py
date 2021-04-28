@@ -56,6 +56,24 @@ def output_textfiles(data):
 #print(data.tail())
 '''
 
+#function to plot and display histograms for the data set
+#this will loop through the measures and within that loop, loop through the species
+#plot the measure for each species on one graph and save that to a file
+def plot_hist():
+	#loop through the measurements excluding the species column
+	for measure in measures:
+		#loop through the dataframe for each species
+		for species in iris_species:
+		     mpl_data = data[data['species']==species][measure]
+		     mpl.hist(mpl_data,color=colors[species],label=species,alpha=.5,histtype="step")
+		     #Give the histograms a title,label both axes, display the legend to note which plot is which(prb)                    
+		     mpl.title("Iris Dataset " + measure + " Histogram") 
+		     mpl.xlabel(measure) 
+		     mpl.ylabel("count") 
+		     mpl.legend() 
+		     #this will save the plot to file
+		     mpl.savefig(measure + ".png")
+		mpl.show()
 
 
 
