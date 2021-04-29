@@ -285,7 +285,7 @@ The boxplots relate to the describe() function mentioned earlier as they visuali
 
 # **Conclusion**
 
-The purpose of analysing any set of  data is to see if one can gain insights into the data, firstly is there anything meaningful in the data, can anything be extrapolated from the data. As such this particular data set lends itself to the “machine learning” branch of computing as it is a small, compact data set and there appears to be some correlation between the petal length and petal width between the species enabling a model to categorise a plant given the pairs of data (sepal width and length, petal width and length) into its particular species with a relatively low degree of error.
+The purpose of analysing any set of  data is to see if one can gain insights into the data, firstly is there anything meaningful in the data, secondly can anything be extrapolated from the data. As such this particular data set lends itself to the “machine learning”[03] branch of computing as it is a small, compact data set and there appears to be some correlation between the petal length and petal width between the species enabling a model to categorise a plant given the pairs of data (sepal width and length, petal width and length) into its particular species with a relatively low degree of error.
 
 
 # **References**
