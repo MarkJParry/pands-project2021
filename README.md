@@ -63,6 +63,8 @@ The Iris Data Set first appeared in the publication by R.A.Fisher of his paper "
 
  “The work of eugenicists was often pervaded by prejudice against racial, ethnic and disabled groups. Publication of this material online is for scholarly research purposes is not an endorsement or promotion of the views expressed in any of these articles or eugenics in general”. (https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x n.d.)[01]
  
+From his observations of this set of data fisher developed a discriminating linear function, which was a forerunner of linear discriminate analysis(LDA).[3]
+ 
 Fischer published his paper in the late 1930’s and as such would have had to presumably use a slide rule and pen and paper which would have meant that this would have been a long and laborious task, the advent of calculators would have speeded this up for him in the 70’s and the personal computer in the early 80’s even further. The advent of statistical analysis packagess such as R ,SPSS and SAS would have given him an even better turnaround time. Today there are many packages in existence that are based specifically around statistical analysis and can be imported or used by many modern computer languages such as python. Within the python world there are a number of importable utilities such as pandas which is used to generate and manipulate dataframes, matplotlib which is used for graphical representations of the data and various others such as  Seaborn and Gleam.
 
 ## **Project Plan**
@@ -291,31 +293,32 @@ The purpose of analysing any set of  data is to see if one can gain insights int
 [02][Statistics Glossary v1.1] http://www.stats.gla.ac.uk/steps/glossary/
 
 # **Bibliography**
-|Title|Link|
-|-----|----|
-|Iris flower data set|https://en.wikipedia.org/wiki/Iris_flower_data_set
-|ScienceDirect - Iris Data|https://www.sciencedirect.com/topics/mathematics/iris-data
-|towardsdatascience - scikit|https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b
-|scipy-lectures - the Pandas Dataframe|https://scipy-lectures.org/packages/statistics/index.html#the-pandas-data-frame
-|Matplotlib - Gallery|https://matplotlib.org/stable/gallery/index.html
-|UCI Machine Learning Repository|https://archive.ics.uci.edu/ml/datasets/Iris
-|Mastering Markdown Github|https://guides.github.com/features/mastering-markdown/#examples
-|Data Manipulation with Python Pandas and R Data.Table|https://datascience-enthusiast.com/R/pandas_datatable.html  comparison of pandas and R
-|Module 3: Data Exploration|http://www.cse.msu.edu/~ptan/dmbook/tutorials/tutorial3/tutorial3.html
-|Pandas API Reference - Dataframe Constructor|https://pandas.pydata.org/docs/reference/frame.html 
-|GitHub Docs - Writing on GitHub|https://docs.github.com/en/github/writing-on-github
-|MatPlotLib - Creating multiple subplots using plt.subplots|https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html
-|Python Tutorials - MatPlotLib Scatterplot|https://pythonspot.com/matplotlib-scatterplot/
-|The Use Of Multiple Measurements In Taxonomic Problems|https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
-|Boxplots - Matplotlib 3.4.1. documentation|https://matplotlib.org/stable/gallery/statistics/boxplot_demo.html#sphx-glr-gallery-statistics-boxplot-demo-py
-|Histograms - Matplotlib 3.4.1. documentation|https://matplotlib.org/stable/gallery/statistics/hist.html
-|Scatter Plots - Matplotlib 3.4.1 documentation|https://matplotlib.org/stable/gallery/shapes_and_collections/scatter.html
-|Statistics Glossary v1.1|http://www.stats.gla.ac.uk/steps/glossary/
-|Python Print Function|https://www.tutorialgateway.org/python-print-function/
-|Geek for Geeks - Python Basics Pandas Iris Dataset|https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/
+
+|Article|Year|Site Title|Available at|Accessed|
+|-------|----|----------|------------|--------|
+|'Iris Data Set'|(2021)|*Wikipedia*|https://en.wikipedia.org/wiki/Iris_flower_data_set|(April 2021)
+|'Iris Data'|(2021|*ScienceDirect*|https://www.sciencedirect.com/topics/mathematics/iris-data|(April 2021)
+|'Exploring Classifiers with Python Scikit-learn — Iris Dataset'|(2020|*towardsdatascience*|https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b|(April 2021)
+|'The Pandas Dataframe'|(2020|*scipy-lectures*|https://scipy-lectures.org/packages/statistics/index.html#the-pandas-data-frame|(April 2021)
+|'Gallery'|(2021)|*Matplotlib*|https://matplotlib.org/stable/gallery/index.html|(April 2021)
+|'Iris Data Set|(2007)|*UCI Machine Learning Repository*|https://archive.ics.uci.edu/ml/datasets/Iris|(April 2021)
+|'Mastering Markdown'|(2014)|*Github*|https://guides.github.com/features/mastering-markdown/#examples|(April 2021)
+|'Data Manipulation with Python Pandas and R Data.Table'|(2016)|*datascience-enthusiast*|https://datascience-enthusiast.com/R/pandas_datatable.html  comparison of pandas and R
+|'Module 3: Data Exploration'|(2020)|*csu.msu.edu*|http://www.cse.msu.edu/~ptan/dmbook/tutorials/tutorial3/tutorial3.html|(April 2021)
+|'Dataframe Constructor'|(2021)*Pandas API Reference*|https://pandas.pydata.org/docs/reference/frame.html 
+|'Writing on GitHub'|()|*GitHub Docs*|https://docs.github.com/en/github/writing-on-github|(April 2021)
+|'Creating multiple subplots using plt.subplots'|*MatPlotLib*|https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html|(April 2021)
+|'Python Tutorials - MatPlotLib Scatterplot'|()|*pythonspot*|https://pythonspot.com/matplotlib-scatterplot/|(April 2021)
+|'The Use Of Multiple Measurements In Taxonomic Problems'|()|*onlinelibrary.wiley.com*|https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x(Mar 2021)
+|'Boxplots'|()|*Matplotlib 3.4.1. documentation*|https://matplotlib.org/stable/gallery/statistics/boxplot_demo.html#sphx-glr-gallery-statistics-boxplot-demo-py|(April 2021)
+|'Histograms'|()|*Matplotlib 3.4.1. documentation*|https://matplotlib.org/stable/gallery/statistics/hist.html|(April 2021)
+|'Scatter Plots'|()|*Matplotlib 3.4.1 documentation*|https://matplotlib.org/stable/gallery/shapes_and_collections/scatter.html|(April 2021)
+|'Statistics Glossary v1.1'|()|*stats.gla.ac.uk*|http://www.stats.gla.ac.uk/steps/glossary/|(April 2021)
+|'Python Print Function'|()|*tutorialgateway*|https://www.tutorialgateway.org/python-print-function/|(April 2021)
+|'Python Basics Pandas Iris Dataset'|()|*Geek for Geeks*|https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/(April 2021)
 
 # **Glossary**  
-The following definitions are taken from Easton, V. J. and McColl, J. H.  (1997) Statistics Glossary v1.1 
+The following definitions are taken from Easton, V. J. and McColl, J. H.  (1997) Statistics Glossary v1.1 [02]
 ## **Boxplot**
 A box and whisker plot is a way of summarising a set of data measured on an interval scale. It is often used in exploratory data analysis. It is a type of graph which is used to show the shape of the distribution, its central value, and variability. The picture produced consists of the most extreme values in the data set (maximum and minimum values), the lower and upper quartiles, and the median.
 
