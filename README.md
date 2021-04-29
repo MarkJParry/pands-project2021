@@ -242,7 +242,7 @@ The dataframe.describe() function provides the following information, count of t
     
 ## **Correlation**
 
-The correlation function dataframe.corr() gives the relationship between the various measures as outlined in the table below. A correlation of 1 indicates a positive relationship between the pais of vairables. As the pairs sepal_length,sepal_length sepa_width,sepal_width etc are the same thes will show up as 1. The highest correlation in the grid below is .962757 (petal_width,petal_length) is apporoaching 1 which would suggest a near positive correlation betwenn these pairs for the dataset.
+The correlation function dataframe.corr() gives the relationship between the various measures as outlined in the table below. A correlation of 1 indicates a positive relationship between the pais of vairables. As the pairs sepal_length,sepal_length sepa_width,sepal_width etc are the same these will show up as 1. The highest correlation in the grid below is .962757 (petal_width,petal_length) which is apporoaching 1 and would suggest a near positive correlation between these pairs for the dataset.
 
     Output from the data correlation function
                   sepal_length  sepal_width  petal_length  petal_width
