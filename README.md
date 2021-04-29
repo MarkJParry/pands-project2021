@@ -290,9 +290,9 @@ The purpose of analysing any set of  data is to see if one can gain insights int
 
 
 # **References**
-[01][The Use Of Multiple Measurements In Taxonomic Problems] https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x\
-[02][Statistics Glossary v1.1] http://www.stats.gla.ac.uk/steps/glossary/\
-[03][Iris Data Set] https://en.wikipedia.org/wiki/Iris_flower_data_set\
+[01][The Use Of Multiple Measurements In Taxonomic Problems] https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x  
+[02][Statistics Glossary v1.1] http://www.stats.gla.ac.uk/steps/glossary/  
+[03][Iris Data Set] https://en.wikipedia.org/wiki/Iris_flower_data_set  
 
 # **Bibliography**
 
