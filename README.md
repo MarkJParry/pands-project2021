@@ -300,7 +300,7 @@ The purpose of analysing any set of  data is to see if one can gain insights int
 |'Iris Data'|(2021|*ScienceDirect*|https://www.sciencedirect.com/topics/mathematics/iris-data|(April 2021)
 |'The Pandas Dataframe'|(2020|*scipy-lectures*|https://scipy-lectures.org/packages/statistics/index.html#the-pandas-data-frame|(April 2021)
 |'Gallery'|(2021)|*Matplotlib*|https://matplotlib.org/stable/gallery/index.html|(April 2021)
-|'Iris Data Set|(2007)|*UCI Machine Learning Repository*|https://archive.ics.uci.edu/ml/datasets/Iris|(April 2021)
+|'Iris Data Set'|(2007)|*UCI Machine Learning Repository*|https://archive.ics.uci.edu/ml/datasets/Iris|(April 2021)
 |'Mastering Markdown'|(2014)|*Github*|https://guides.github.com/features/mastering-markdown/#examples|(April 2021)
 |'Data Manipulation with Python Pandas and R Data.Table'|(2016)|*datascience-enthusiast*|https://datascience-enthusiast.com/R/pandas_datatable.html|(April 2021)  
 |'Module 3: Data Exploration'|(2020)|*csu.msu.edu*|http://www.cse.msu.edu/~ptan/dmbook/tutorials/tutorial3/tutorial3.html|(April 2021)
