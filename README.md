@@ -255,11 +255,11 @@ The correlation function dataframe.corr() gives the relationship between the var
 
 The histograms plot the range of values within the dataset into bins or buckets with a count of how many values fall into that bin/bucket. A formal definition of a histogram is available in the glossary. From these histograms it can be seen that the species "Iris-Setosa" is seperable from the other two species in regards to both petal length and petal width. 
 
-<img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal length.png" alt="Petal Length histogram" width=450 height=300 align=left>
-<img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal width.png" alt="Petal Width histogram" width=450 height=300>
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal_length.png" alt="Petal Length histogram" width=450 height=300 align=left>
+<img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal_width.png" alt="Petal Width histogram" width=450 height=300>
 	
-<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/sepal length.png" alt = "Sepal Length histogram" width=450 height=300 align=left>
-<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/sepal width.png" alt = "Sepal Width histogram" width=450 height=300>
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/sepal_length.png" alt = "Sepal Length histogram" width=450 height=300 align=left>
+<img src = "https://github.com/MarkJParry/pands-project2021/blob/main/sepal_width.png" alt = "Sepal Width histogram" width=450 height=300>
 
 
 ## **Scatter Plots**
