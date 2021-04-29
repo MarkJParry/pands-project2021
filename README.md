@@ -307,7 +307,7 @@ The purpose of analysing any set of  data is to see if one can gain insights int
 |'Module 3: Data Exploration'|(2020)|*csu.msu.edu*|http://www.cse.msu.edu/~ptan/dmbook/tutorials/tutorial3/tutorial3.html|(April 2021)
 |'Dataframe Constructor'|(2021)|*Pandas API Reference*|https://pandas.pydata.org/docs/reference/frame.html|(April 2021)
 |'Writing on GitHub'|()|*GitHub Docs*|https://docs.github.com/en/github/writing-on-github|(April 2021)
-|'Creating multiple subplots using plt.subplots'|*MatPlotLib*|https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html|(April 2021)
+|'Creating multiple subplots using plt.subplots'|()|*MatPlotLib*|https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html|(April 2021)
 |'Python Tutorials - MatPlotLib Scatterplot'|()|*pythonspot*|https://pythonspot.com/matplotlib-scatterplot/|(April 2021)
 |'The Use Of Multiple Measurements In Taxonomic Problems'|()|*onlinelibrary.wiley.com*|https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x(Mar 2021)
 |'Boxplots'|()|*Matplotlib 3.4.1. documentation*|https://matplotlib.org/stable/gallery/statistics/boxplot_demo.html#sphx-glr-gallery-statistics-boxplot-demo-py|(April 2021)
