@@ -77,6 +77,10 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 ### **Libraries**
 
+"Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python."(MatplotLib Visualisation with Python - https://matplotlib.org/)
+"pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
+built on top of the Python programming language".(pandas Python Data Analysis Library - https://pandas.pydata.org/)
+
     import matplotlib.pyplot as mpl
     import pandas as pd
 
@@ -221,6 +225,8 @@ Or the "best laid plans of mice and men"(Robert Burns)
 # **Analysis Outputs**
 ## **Measurements Summary**
 
+The dataframe.describe() function provides the following information, count of the rows, the mean, standard deviation, the minimum value and the values across four quartiles 25%,50%,75% and the max.
+
     Output from the data describe function
            sepal_length  sepal_width  petal_length  petal_width
     count    150.000000   150.000000    150.000000   150.000000
@@ -234,6 +240,8 @@ Or the "best laid plans of mice and men"(Robert Burns)
     
 ## **Correlation**
 
+The correlation function dataframe.corr() gives the relationship between the various measures as outlined in the table below. A correlation of 1 indicates a positive relationship between the pais of vairables. As the pairs sepal_length,sepal_length sepa_width,sepal_width etc are the same thes will show up as 1. The highest correlation in the grid below is .962757 (petal_width,petal_length) is apporoaching 1 which would suggest a near positive correlation betwenn these pairs for the dataset.
+
     Output from the data correlation function
                   sepal_length  sepal_width  petal_length  petal_width
     sepal_length      1.000000    -0.109369      0.871754     0.817954
@@ -243,6 +251,8 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 ## **Histograms**
 
+The histograms plot the range of values within the dataset into bins or buckets with a count of how many values fall into that bin/bucket. A formal definition of a histogram is available in the glossary. From these histograms it can be seen that the species "Iris-Setosa" is seperable from the other two species in regards to both petal length and petal width. 
+
 <img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal length.png" alt="Petal Length histogram" width=450 height=300 align=left>
 <img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal width.png" alt="Petal Width histogram" width=450 height=300>
 	
@@ -251,6 +261,10 @@ Or the "best laid plans of mice and men"(Robert Burns)
 
 
 ## **Scatter Plots**
+
+The scatter plots show a plot of the values of a pair of measures, they visualise the correlation function described earlier and from the relationship between the petal_length 
+and petal length measures across the species which had a correlation factor of  0.962757 the plot petal_length_petal_width demostrates this. A formal definition of a scatterplot is available in the glossary.
+
 <img src="https://github.com/MarkJParry/pands-project2021/blob/main/sepal_length_sepal_width.png" alt="Iris Dataset Scatter Plot 1" width=290 height=290 align=left>
 <img src="https://github.com/MarkJParry/pands-project2021/blob/main/sepal_length_petal_length.png" alt="Iris Dataset Scatter Plot 2" width=290 height=290 align=left>
 <img src="https://github.com/MarkJParry/pands-project2021/blob/main/sepal_length_petal_width.png" alt="Iris Dataset Scatter Plot 3" width=290 height=290>
@@ -260,13 +274,16 @@ Or the "best laid plans of mice and men"(Robert Burns)
 <img src="https://github.com/MarkJParry/pands-project2021/blob/main/petal_length_petal_width.png" alt="Iris Dataset Scatter Plot 6" width=290 height=290>
 
 ## **Box Plots**
+
+The boxplots relate to the describe() function mentioned earlier as they visualise the data into min, max,median,upper and lower quartiles and show outliers(data that sits outside the normal sample) depicted as circles on the plot. A formal definition of a boxplot is available in the glossary.
+
 <img src="https://github.com/MarkJParry/pands-project2021/blob/main/Iris-setosa.png" alt="Iris Setosa boxplot" width=290 height=290 align=left>
 <img src="https://github.com/MarkJParry/pands-project2021/blob/main/Iris-versicolor.png" alt="Iris Versicolor boxplot" width=290 height=290 align=left>
 <img src="https://github.com/MarkJParry/pands-project2021/blob/main/Iris-virginica.png" alt="Iris Virginica boxplot" width=290 height=290>
 
 # **Conclusion**
 
-The purpose of analysing any set of  data is to see if one can gain insights into the data, firstly is there anything meaningful in the data, can anything be extrapolated from the data, as such this particular data set lends itself to the “machine learning” branch of computing as it is a small, compact data set and there appears to be some correlation between the petal length and petal width between the species enabling a model to categorise a plant given the pairs of data (sepal width and length, petal width and length) into its particular species with a relatively low degree of error.
+The purpose of analysing any set of  data is to see if one can gain insights into the data, firstly is there anything meaningful in the data, can anything be extrapolated from the data. As such this particular data set lends itself to the “machine learning” branch of computing as it is a small, compact data set and there appears to be some correlation between the petal length and petal width between the species enabling a model to categorise a plant given the pairs of data (sepal width and length, petal width and length) into its particular species with a relatively low degree of error.
 
 
 # **References**
