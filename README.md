@@ -303,9 +303,9 @@ The purpose of analysing any set of  data is to see if one can gain insights int
 |'Gallery'|(2021)|*Matplotlib*|https://matplotlib.org/stable/gallery/index.html|(April 2021)
 |'Iris Data Set|(2007)|*UCI Machine Learning Repository*|https://archive.ics.uci.edu/ml/datasets/Iris|(April 2021)
 |'Mastering Markdown'|(2014)|*Github*|https://guides.github.com/features/mastering-markdown/#examples|(April 2021)
-|'Data Manipulation with Python Pandas and R Data.Table'|(2016)|*datascience-enthusiast*|https://datascience-enthusiast.com/R/pandas_datatable.html  comparison of pandas and R
+|'Data Manipulation with Python Pandas and R Data.Table'|(2016)|*datascience-enthusiast*|https://datascience-enthusiast.com/R/pandas_datatable.html|(April 2021)  
 |'Module 3: Data Exploration'|(2020)|*csu.msu.edu*|http://www.cse.msu.edu/~ptan/dmbook/tutorials/tutorial3/tutorial3.html|(April 2021)
-|'Dataframe Constructor'|(2021)*Pandas API Reference*|https://pandas.pydata.org/docs/reference/frame.html 
+|'Dataframe Constructor'|(2021)|*Pandas API Reference*|https://pandas.pydata.org/docs/reference/frame.html|(April 2021)
 |'Writing on GitHub'|()|*GitHub Docs*|https://docs.github.com/en/github/writing-on-github|(April 2021)
 |'Creating multiple subplots using plt.subplots'|*MatPlotLib*|https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html|(April 2021)
 |'Python Tutorials - MatPlotLib Scatterplot'|()|*pythonspot*|https://pythonspot.com/matplotlib-scatterplot/|(April 2021)
