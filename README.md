@@ -80,6 +80,7 @@ Or the "best laid plans of mice and men"(Robert Burns)
 ### **Libraries**
 
 "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python."(MatplotLib Visualisation with Python - https://matplotlib.org/)
+
 "pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
 built on top of the Python programming language".(pandas Python Data Analysis Library - https://pandas.pydata.org/)
 
@@ -289,9 +290,9 @@ The purpose of analysing any set of  data is to see if one can gain insights int
 
 
 # **References**
-[01][The Use Of Multiple Measurements In Taxonomic Problems] https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
-[02][Statistics Glossary v1.1] http://www.stats.gla.ac.uk/steps/glossary/
-[03][Iris Data Set] https://en.wikipedia.org/wiki/Iris_flower_data_set
+[01][The Use Of Multiple Measurements In Taxonomic Problems] https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x\
+[02][Statistics Glossary v1.1] http://www.stats.gla.ac.uk/steps/glossary/\
+[03][Iris Data Set] https://en.wikipedia.org/wiki/Iris_flower_data_set\
 
 # **Bibliography**
 
