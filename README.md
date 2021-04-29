@@ -298,7 +298,6 @@ The purpose of analysing any set of  data is to see if one can gain insights int
 |-------|----|----------|------------|--------|
 |'Iris Data Set'|(2021)|*Wikipedia*|https://en.wikipedia.org/wiki/Iris_flower_data_set|(April 2021)
 |'Iris Data'|(2021|*ScienceDirect*|https://www.sciencedirect.com/topics/mathematics/iris-data|(April 2021)
-|'Python Scikit-learn — Iris Dataset'|(2020|*towardsdatascience*|https://towardsdatascience.com/exploring-classifiers-with-python-scikit-learn-iris-dataset-2bcb490d2e1b|(April 2021)
 |'The Pandas Dataframe'|(2020|*scipy-lectures*|https://scipy-lectures.org/packages/statistics/index.html#the-pandas-data-frame|(April 2021)
 |'Gallery'|(2021)|*Matplotlib*|https://matplotlib.org/stable/gallery/index.html|(April 2021)
 |'Iris Data Set|(2007)|*UCI Machine Learning Repository*|https://archive.ics.uci.edu/ml/datasets/Iris|(April 2021)
